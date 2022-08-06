@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+
+        <title>INFORMATION</title>
+    </head>
+
+    <body>
+        <ol type="1">
+            <li> 
+                <h4><label>ชื่อเต็ม/ย่อของสาขาวิชา</label></h4>
+                <label for="name">ชื่อเต็ม/ย่อ:</label>
+                <input type="text" id="name" name="name" maxlength="30" size="30" placeholder="ชื่อเต็ม/ย่อของสาขาวิชา"> 
+            </li>
+
+            <li> 
+                <h4><label>จำนวนเงินที่จะโอน</label></h4>
+                <label for="money">จำนวนเงิน:</label>
+                <input type="text" id="money" name="money" maxlength="10" size="20" placeholder="บาท"> 
+            </li>
+
+            <li> 
+                <h4><label>อาหารที่ชื่นชอบ 5 ชนิดที่ชื่นชอบจากมากไปน้อย</label></h4>
+                ซูชิ / ต้มยำกุ้ง / เป็ดปักกิ่ง / แกงกะหรี่ / แฮมเบอร์เกอร์ </br>
+            </br>
+                <label>อันดับที่ 1:</label>
+                <select name="food" id="food">
+                    <option value="select">--select--</option>
+                    <option value="susu">ซูชิ</option>
+                    <option value="tom">ต้มยำกุ้ง</option>
+                    <option value="duck">เป็ดปักกิ่ง</option>
+                    <option value="kang">แกงกะหรี่</option>
+                    <option value="ham">แฮมเบอร์เกอร์</option>
+                </select></br>
+                <label>อันดับที่ 2:</label>
+                <select name="food" id="food">
+                    <option value="select">--select--</option>
+                    <option value="susu">ซูชิ</option>
+                    <option value="tom">ต้มยำกุ้ง</option>
+                    <option value="duck">เป็ดปักกิ่ง</option>
+                    <option value="kang">แกงกะหรี่</option>
+                    <option value="ham">แฮมเบอร์เกอร์</option>
+                </select></br>
+                <label>อันดับที่ 3:</label>
+                <select name="food" id="food">
+                    <option value="select">--select--</option>
+                    <option value="susu">ซูชิ</option>
+                    <option value="tom">ต้มยำกุ้ง</option>
+                    <option value="duck">เป็ดปักกิ่ง</option>
+                    <option value="kang">แกงกะหรี่</option>
+                    <option value="ham">แฮมเบอร์เกอร์</option>
+                </select></br>
+                <label>อันดับที่ 4:</label>
+                <select name="food" id="food">
+                    <option value="select">--select--</option>
+                    <option value="susu">ซูชิ</option>
+                    <option value="tom">ต้มยำกุ้ง</option>
+                    <option value="duck">เป็ดปักกิ่ง</option>
+                    <option value="kang">แกงกะหรี่</option>
+                    <option value="ham">แฮมเบอร์เกอร์</option>
+                </select></br>
+                <label>อันดับที่ 5:</label>
+                <select name="food" id="food">
+                    <option value="select">--select--</option>
+                    <option value="susu">ซูชิ</option>
+                    <option value="tom">ต้มยำกุ้ง</option>
+                    <option value="duck">เป็ดปักกิ่ง</option>
+                    <option value="kang">แกงกะหรี่</option>
+                    <option value="ham">แฮมเบอร์เกอร์</option>
+                </select></br>
+            </li>
+
+            <li>
+                <h4><label>ค่าไฟฟ้า 3 เดือนที่ผ่านมา</label></h4>
+                <label>จำนวนเงิน:</label>
+                <input type="text" id="money" name="money" size="20" maxlength="10" placeholder="บาท"> 
+            </li>
+ 
+            <li>
+                <h4><label>รหัสบัตรประชาชน</label></h4>
+                <label>ID card:</label>
+                <input type="text" id="acc" name="acc" size="20" maxlength="13" placeholder="รหัสบัตรประชาชน13หลัก"> 
+            </li>
+
+            <li>
+                <h4><label>ความพึงพอใจของหนังสือเล่มนี้</label></h4>
+                 
+                <input type="radio" id="sat1" name="sat" value="verygood">
+                <label>ดีมาก</label>
+                
+                <input type="radio" id="sat2" name="sat" value="good">
+                <label>ดี</label> 
+                
+                <input type="radio" id="sat3" name="sat" value="notbad">
+                <label>พอใช้</label> 
+
+                <input type="radio" id="sat4" name="sat" value="bad">
+                <label>ปรับปรุง</label> 
+            </li>
+
+            <li>
+                <h4><label>อาการป่วย</label></h4>
+                <textarea id="sick" name="sick" maxlength="500" rows="5" cols="50" placeholder="กรอกอาการป่วยที่คนไข้พบเจอ"></textarea>
+            </li>
+
+            <li>
+                <h4><label>ในช่วง 3 เดือนที่ผ่านมา เคยได้รับวัคซีนหรือไม่</label></h4>
+                <input type="checkbox" id="vac1" name="vac" value="yes">
+                <label>เคยได้รับ</label>
+                <input type="checkbox" id="vac2" name="vac" value="no">
+                <label>ไม่เคยได้รับ</label>
+            </li>
+
+            <li>
+                <h4><label>รหัสผ่าน</label></h4>
+                <label>รหัสผ่าน</label>
+                <input type="password" id="pass" name="password" size="30" maxlength="20" placeholder="กรอกรหัสผ่าน">
+            </li>
+
+            <li>
+                <h4><label>เวลาเริ่มเข้าเรียนและสิ้นสุดการเรียน</label></h4>
+                <label>เวลาเข้าเรียน</label>
+                <input type="time" id="time1" name="time1">
+                <br><br>
+                <label>เวลาเลิกเรียน</label>
+                <input type="time" id="time2" name="time2">
+            </li>
+
+            <li>
+                <h4><label>วันเวลาที่ต้องไปพบแพทย์</label></h4>
+                <label>เลือกวันเวลาที่ต้องไปพบแพทย์</label>
+                <input type="datetime-local" id="daydoc" name="daydoc">
+            </li>
+
+        </ol>
+    </body>
+</html>
